@@ -1,0 +1,88 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-banner{
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    background-image: url('/public/assets/banner-home.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 46%;
+    background-color: #F9DB79;
+    position: relative;
+}
+
+.secao-banner h1{
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1024px;
+    font-size: 86px;
+    color: #EBEBEB;
+    text-shadow: 2px 2px #000;
+}
+
+.secao-sabores{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.secao-sabores .img, .secao-sabores .texto{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.texto p{
+    width: 500px;
+}
+
+/*Responsivo em telas até 425*/
+
+@media screen and (max-width: 662px) {
+    
+
+    .secao-banner{
+        background-position: center center;
+        background-size: 386px;
+    }
+    
+    
+    .secao-banner h1{
+        width: 360px;
+        font-size: 62px;
+        border: 1px solid;
+    }
+
+
+    .secao-sabores{
+        flex-direction: column;
+    }
+
+    .secao-sabores img, .secao-sabores .texto{
+        width: 100%;
+        border: 1px solid red;
+    }
+}

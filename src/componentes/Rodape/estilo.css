@@ -1,0 +1,37 @@
+
+
+footer .contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+
+.contatos img{
+    width: 80px;
+}
+
+.contatos div{
+    margin: 0 60px;
+}
+
+.contatos p{
+    margin: 0;
+}
+
+.contatos h2{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    margin-top: -4px;
+}
+
+footer .dv{
+    padding: 20px 0;
+}
