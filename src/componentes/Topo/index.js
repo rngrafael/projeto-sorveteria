@@ -10,7 +10,7 @@ export default function Topo(){
                 <img src="assets/logo.png" alt="imagem logo"/>
 
                 <div className="box-links">
-                    <Link className="link" to='/'>Home</Link>
+                    <Link className="link" to='/projeto-sorveteria'>Home</Link>
                     <Link className="link" to='/sabores'>Sabores</Link>
                     <Link className="link" to='/sobre'>Sobre</Link>
                 </div>
