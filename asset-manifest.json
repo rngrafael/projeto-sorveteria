@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/projeto-sorveteria/static/css/main.3257b480.css",
-    "main.js": "/projeto-sorveteria/static/js/main.c800230f.js",
+    "main.js": "/projeto-sorveteria/static/js/main.f9d5c9ca.js",
     "static/js/787.cd456fec.chunk.js": "/projeto-sorveteria/static/js/787.cd456fec.chunk.js",
     "static/media/banner-home.png": "/projeto-sorveteria/static/media/banner-home.a58e6b19f3f9b4c9c3dc.png",
     "index.html": "/projeto-sorveteria/index.html",
     "main.3257b480.css.map": "/projeto-sorveteria/static/css/main.3257b480.css.map",
-    "main.c800230f.js.map": "/projeto-sorveteria/static/js/main.c800230f.js.map",
+    "main.f9d5c9ca.js.map": "/projeto-sorveteria/static/js/main.f9d5c9ca.js.map",
     "787.cd456fec.chunk.js.map": "/projeto-sorveteria/static/js/787.cd456fec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3257b480.css",
-    "static/js/main.c800230f.js"
+    "static/js/main.f9d5c9ca.js"
   ]
 }
