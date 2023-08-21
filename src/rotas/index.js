@@ -9,7 +9,7 @@ export default function Rotas(){
     return(
         <BrowserRouter>
         <Routes>
-            <Route exact path='/' element={<Home/>}/>
+            <Route exact path='/projeto-sorveteria' element={<Home/>}/>
             <Route path='/sabores' element={<Sabores/>}/>
             <Route path='/sobre' element={<Sobre/>}/>
         </Routes>
